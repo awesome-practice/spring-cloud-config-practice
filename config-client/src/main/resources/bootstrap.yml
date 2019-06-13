@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: a-bootiful-client
+  cloud:
+    config:
+      uri: http://localhost:8888 # default
+      fail-fast: true
+      enabled: true
+  profiles:
+    active: dev
